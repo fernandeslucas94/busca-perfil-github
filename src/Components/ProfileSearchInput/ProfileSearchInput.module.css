@@ -1,0 +1,61 @@
+.buscaUsuario {
+    background-color: #FFF;
+
+    color: #000;
+    font-size: 1.25em;
+    font-weight: 600;
+
+    width: 31.43rem;
+    height: 3.87rem;
+
+    border-radius: .62rem;
+
+    padding-left: 1em;
+
+    position: relative;
+}
+
+.buscaUsuario::placeholder {
+    color: #000;
+}
+
+.lupaBuscaUsuario {
+    background-color: #005CFF;
+
+    border: none;
+
+    width: 3.87rem;
+    height: 4rem;
+
+    background-image: url('../../assets/images/lupaBusca.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    cursor: pointer;
+
+    position: absolute;
+
+    top: 9.39rem;
+    left: 72.55rem;
+
+    border-radius: .62rem;
+}
+
+
+@media (min-width: 1024px) {
+    .lupaBuscaUsuario {
+        left: 69.6%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .lupaBuscaUsuario {
+        left: 63.9%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .lupaBuscaUsuario {
+        left: 60.4%;
+    }
+}

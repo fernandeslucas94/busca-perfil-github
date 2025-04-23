@@ -1,0 +1,48 @@
+.cardContainer {
+    background-color: #D9D9D9;
+
+    width: 50.25rem;
+    height: 15.68rem;
+
+    border-radius: 1.56rem;
+
+    margin-top: 2.06rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImage {
+    width: 13.75rem;
+    height: 13.75rem;
+
+    border-radius: 50%;
+
+    border: 2px solid #005CFF;
+}
+
+.titleAndTextContainer {
+    width: 28rem;
+    height: 7.68rem;
+
+    margin-left: 2rem;
+
+    border: 1px solid green;
+}
+
+.profileTitle {
+    color: #005CFF;
+
+    font-weight: 700;
+    font-size: 1.25em;
+
+    margin: 0;
+}
+
+.profileDescription {
+    font-size: .87em;
+    font-weight: 300;
+
+    color: #000;
+}
