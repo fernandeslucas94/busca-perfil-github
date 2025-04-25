@@ -1,12 +1,12 @@
-# React + Vite
+### Projeto de busca de perfil no GitHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o projeto
 
-Currently, two official plugins are available:
+Este projeto é um buscador de perfis no GitHub. Através de um campo de busca, o usuário pode digitar um nome de perfil e ao clicar no botão, será mostrado na tela a foto do perfil, nome e biografia.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Caso o nome do perfil esteja errado, será mostrada uma informação informando que não foi encontrado nenhum perfil com o nome informado.
 
-## Expanding the ESLint configuration
+# Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (vite)
+- Git
